@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "336935463296",
+    "project_id": "app-bussiness-920e1",
+    "storage_bucket": "app-bussiness-920e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336935463296:android:13f6a16d7fdd4e45033965",
+        "android_client_info": {
+          "package_name": "com.appproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336935463296-8lf926riaf4pmqeebo7ghmab22c0lf36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appproject",
+            "certificate_hash": "4c58fc118cd4b1c74df9cd918ff1a8e479bfdfa6"
+          }
+        },
+        {
+          "client_id": "336935463296-l1gfe9ho7um8e96lcsqj4sj97baupjss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALJbJcOx2InXrAhVjkB_bv7ePhddeGEjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336935463296-l1gfe9ho7um8e96lcsqj4sj97baupjss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
