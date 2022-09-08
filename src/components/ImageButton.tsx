@@ -1,6 +1,7 @@
 import React from "react"
 import {View,Text,StyleSheet,Image,TouchableOpacity} from "react-native"
 import {FONTNAME} from "../common/FontName"
+import {COLORS} from "../common/Color"
 
 const IconButton = ({image,description,onPress}:any)=>{
   return(
@@ -23,6 +24,7 @@ const styles = StyleSheet.create({
     textAlign:"center",
     fontSize:14,
     marginTop:10,
+    color:COLORS.textColor,
     fontFamily:FONTNAME.InterLight
   },
   box:{

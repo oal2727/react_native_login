@@ -28,9 +28,9 @@ const BoxText = ({item,selectedId,setSelectedId}:any)=>{
         <Text style={styles.description}>{item.description}</Text>
         {
           active ?
-          <Icon name={"caret-up"} style={{fontSize:20}} />
+          <Icon name={"caret-up"} style={{color:COLORS.textColor,fontSize:20}} />
         :
-           <Icon name={"caret-down"} style={{fontSize:20}}  />
+           <Icon name={"caret-down"} style={{color:COLORS.textColor,fontSize:20}}  />
         }
          </View>
          <View style={active ? {backgroundColor:COLORS.boxDetail} : {height:0}}>
@@ -54,10 +54,12 @@ const styles = StyleSheet.create({
   },
   description:{
     fontSize:16,
+    color:COLORS.textColor,
     fontFamily:FONTNAME.InterBold
   },
   detail:{
     padding:5,
+    color:COLORS.textColor,
     paddingLeft:10,
     fontFamily:FONTNAME.InterMedium
   },

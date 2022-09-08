@@ -13,7 +13,6 @@ const Home = ()=>{
     const details=[
         {id:1,description:"Descubre",detail:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"},
     {id:2,description:"Descubre",detail:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"},
-    
       ]
 
       let dataHeader=[
@@ -35,8 +34,8 @@ const Home = ()=>{
             <View style={styles.header}>
                 <View style={{flexDirection:"row",justifyContent:"space-between"}}>
                     <Text style={styles.textHeader}>Opciones - {authUser.auth}</Text>
-                    <TouchableOpacity onPress={()=>logoutAuth()} style={styles.textExit}>
-                        <Text>Salir</Text>
+                    <TouchableOpacity onPress={()=>logoutAuth()} >
+                        <Text style={styles.textExit}>Salir</Text>
                     </TouchableOpacity>
                 </View>
                 <FlatList
@@ -73,11 +72,13 @@ const styles= StyleSheet.create({
     },
     textHeader:{
         margin:15,
+        color:COLORS.textColor,
         fontFamily:FONTNAME.InterSemiBold,
         fontSize:20
     },
     textExit:{
-        margin:15,fontSize:22,fontFamily:FONTNAME.InterBold
+        color:COLORS.danger,
+        margin:15,fontSize:20,fontFamily:FONTNAME.InterBold
     },
     
 })

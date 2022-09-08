@@ -102,11 +102,11 @@ const Login = ({navigation}:any)=>{
                         onPress={()=>setEye(!eye)}>
                           {
                             eye ?
-                            <Icon name="eye-slash" size={18}/>
+                            <Icon color={"black"} name="eye-slash" size={18}/>
                             :
-                            <Icon name="eye" size={18}/>
+                            <Icon color={"black"} name="eye" size={18}/>
                           }
-                  <Text style={{marginLeft:6}}>{eye ? "Ocultar" : "Ver"} Contraseña</Text>
+                  <Text style={{marginLeft:6,color:"black"}}>{eye ? "Ocultar" : "Ver"} Contraseña</Text>
                       </TouchableOpacity>
 
                   {

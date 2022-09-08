@@ -9,5 +9,6 @@ export const COLORS={
     //TEXTS
     footerText:"#1469BE",
     boxHome:"#F9F9F9",
-    boxDetail:"#9FCBF6"
+    boxDetail:"#9FCBF6",
+    textColor:"rgba(0, 0, 0, 0.5)"
 }
